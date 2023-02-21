@@ -11,7 +11,7 @@
     "test:watch": "jest --watch",
     "test:ci": "jest --ci",
     "storybook:start": "start-storybook -s ./public -p 6006",
-    "storybook:build": "build-storybook"
+    "storybook:build": "build-storybook -s ./public"
   },
   "lint-staged": {
     "src/**/*": [
