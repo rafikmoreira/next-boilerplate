@@ -5,6 +5,7 @@ This is a [Next.js](https://nextjs.org/) project
 This project contains a Next.js boilerplate with the following features:
 
 - [x] [TypeScript](https://www.typescriptlang.org/)
+- [x] [Docker](https://www.docker.com/)
 - [x] [ESLint](https://eslint.org/)
 - [x] [Prettier](https://prettier.io/)
 - [x] [Jest](https://jestjs.io/)
