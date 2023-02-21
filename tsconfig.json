@@ -26,7 +26,7 @@
     "src/utils/test-wrapper.ts",
     "next.config.js",
     "generators/plopfile.js",
-    "server.js"
+    "server.ts"
   ],
   "exclude": ["node_modules"]
 }
