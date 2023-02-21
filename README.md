@@ -13,6 +13,11 @@ This project contains a Next.js boilerplate with the following features:
 - [x] [Styled Components](https://styled-components.com/)
 - [x] [Next Font](https://nextjs.org/docs/basic-features/font-optimization)
 - [x] [Next PWA](https://www.npmjs.com/package/next-pwa)
+- [x] [Husky](https://github.com/typicode/husky)
+- [x] [Lint Staged](https://github.com/okonet/lint-staged)
+- [x] [Commitlint](https://commitlint.js.org/#/)
+- [x] [Commitizen](https://github.com/commitizen/cz-cli)
+- [x] [Plop](https://plopjs.com/)
 
 To boot an application from this template, run the command
 
