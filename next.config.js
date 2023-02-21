@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 
 const isProd = process.env.NODE_ENV === 'production'
+const isTest = process.env.NODE_ENV === 'test'
 
 const withPWA = require('next-pwa')({
   dest: 'public',
@@ -10,7 +11,10 @@ const withPWA = require('next-pwa')({
 const nextConfig = withPWA({
   reactStrictMode: true,
   compiler: {
-    styledComponents: true
+    styledComponents: {
+      ssr: !isTest,
+      displayName: !isTest
+    }
   }
 })
 

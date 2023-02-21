@@ -11,7 +11,8 @@
     "test:watch": "jest --watch",
     "test:ci": "jest --ci",
     "storybook:start": "start-storybook -s ./public -p 6006",
-    "storybook:build": "build-storybook -s ./public"
+    "storybook:build": "build-storybook -s ./public",
+    "generate": "yarn plop --plopfile ./generators/plopfile.js"
   },
   "lint-staged": {
     "src/**/*": [
@@ -30,6 +31,8 @@
   },
   "devDependencies": {
     "@babel/core": "^7.21.0",
+    "@commitlint/cli": "^17.4.4",
+    "@commitlint/config-conventional": "^17.4.4",
     "@storybook/addon-actions": "^6.5.16",
     "@storybook/addon-essentials": "^6.5.16",
     "@storybook/addon-interactions": "^6.5.16",
@@ -60,6 +63,7 @@
     "jest-environment-jsdom": "^29.4.3",
     "jest-styled-components": "^7.1.1",
     "lint-staged": "^13.1.2",
+    "plop": "^3.1.2",
     "prettier": "^2.8.4"
   },
   "config": {
