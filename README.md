@@ -2,6 +2,18 @@ This is a [Next.js](https://nextjs.org/) project
 
 ## Getting Started
 
+This project contains a Next.js boilerplate with the following features:
+
+- [x] [TypeScript](https://www.typescriptlang.org/)
+- [x] [ESLint](https://eslint.org/)
+- [x] [Prettier](https://prettier.io/)
+- [x] [Jest](https://jestjs.io/)
+- [x] [Testing Library](https://testing-library.com/)
+- [x] [Storybook](https://storybook.js.org/)
+- [x] [Styled Components](https://styled-components.com/)
+- [x] [Next Font](https://nextjs.org/docs/basic-features/font-optimization)
+- [x] [Next PWA](https://www.npmjs.com/package/next-pwa)
+
 To boot an application from this template, run the command
 
 ```bash
