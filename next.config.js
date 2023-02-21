@@ -9,6 +9,7 @@ const withPWA = require('next-pwa')({
 })
 
 const nextConfig = withPWA({
+  output: 'standalone',
   reactStrictMode: true,
   compiler: {
     styledComponents: {
