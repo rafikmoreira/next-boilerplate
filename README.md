@@ -1,26 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project
+# Next.js Project with TypeScript, Docker, ESLint, Prettier, Jest, Testing Library, Storybook, Styled Components, and More
 
-## Getting Started
+This is a boilerplate for a Next.js project with various features already integrated. The features include:
 
-This project contains a Next.js boilerplate with the following features:
+- [TypeScript](https://www.typescriptlang.org/) for type checking and improving the code quality
+- [Docker](https://www.docker.com/) for containerizing the application and ensuring consistency across different environments
+- [ESLint](https://eslint.org/) for linting and enforcing code quality standards
+- [Prettier](https://prettier.io/) for formatting the code automatically and consistently
+- [Jest](https://jestjs.io/) for testing the code and ensuring correctness
+- [Testing Library](https://testing-library.com/) for writing user-focused tests
+- [Storybook](https://storybook.js.org/) for developing and testing UI components in isolation
+- [Styled Components](https://styled-components.com/) for styling the components using CSS-in-JS
+- [Next Font](https://nextjs.org/docs/basic-features/font-optimization) for optimizing and loading custom Google Fonts
+- [Next PWA](https://www.npmjs.com/package/next-pwa) for adding Progressive Web App (PWA) features to the application
+- [Husky](https://github.com/typicode/husky) for running scripts automatically on Git hooks
+- [Lint Staged](https://github.com/okonet/lint-staged) for running linters on staged files only
+- [Commitlint](https://commitlint.js.org/#/) for enforcing commit message conventions
+- [Commitizen](https://github.com/commitizen/cz-cli) for making commit messages easier to write and understand
+- [Plop](https://plopjs.com/) for generating code snippets and templates
 
-- [x] [TypeScript](https://www.typescriptlang.org/)
-- [x] [Docker](https://www.docker.com/)
-- [x] [ESLint](https://eslint.org/)
-- [x] [Prettier](https://prettier.io/)
-- [x] [Jest](https://jestjs.io/)
-- [x] [Testing Library](https://testing-library.com/)
-- [x] [Storybook](https://storybook.js.org/)
-- [x] [Styled Components](https://styled-components.com/)
-- [x] [Next Font](https://nextjs.org/docs/basic-features/font-optimization)
-- [x] [Next PWA](https://www.npmjs.com/package/next-pwa)
-- [x] [Husky](https://github.com/typicode/husky)
-- [x] [Lint Staged](https://github.com/okonet/lint-staged)
-- [x] [Commitlint](https://commitlint.js.org/#/)
-- [x] [Commitizen](https://github.com/commitizen/cz-cli)
-- [x] [Plop](https://plopjs.com/)
-
-To boot an application from this template, run the command
+To create a new application from this template, run the following command:
 
 ```bash
 yarn create next-app -e https://github.com/rafikmoreira/next-boilerplate
@@ -36,15 +34,15 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The application will be available at [http://localhost:3000](http://localhost:3000) in your browser.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about Next.js, check out the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about the features and API of Next.js
+- [Learn Next.js](https://nextjs.org/learn) - an interactive tutorial for Next.js
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+You can also contribute to the [Next.js GitHub repository](https://github.com/vercel/next.js/) and provide feedback on this project.
