@@ -35,7 +35,7 @@
     "@commitlint/cli": "^17.4.4",
     "@commitlint/config-conventional": "^17.4.4",
     "@storybook/addon-actions": "^7.0.7",
-    "@storybook/addon-essentials": "^6.5.16",
+    "@storybook/addon-essentials": "^7.0.20",
     "@storybook/addon-interactions": "^6.5.16",
     "@storybook/addon-links": "^7.0.7",
     "@storybook/builder-webpack5": "^6.5.16",
